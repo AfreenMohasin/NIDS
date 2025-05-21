@@ -1,27 +1,27 @@
 # Network Intrusion Detection System (NIDS)
 
-A basic network intrusion detection system implemented in C++ that monitors network traffic for potential security threats and anomalies.
+This project introduces a fundamental Network Intrusion Detection System (NIDS), meticulously crafted in C++. It's designed to be your network's vigilant observer, continuously analyzing traffic to pinpoint potential security threats and detect any unusual behavior that could signal an intrusion.
 
 ## Features
 
-- Real-time packet capturing and analysis
-- Detection of various attack patterns:
+- Real-time Packet Analysis: Captures and processes network packets in real-time, providing immediate insights into traffic flow.
+- Attack Pattern Recognition(Specifically identifies and flags common attack vectors, including):
   - TCP SYN Flood attacks
   - Broadcast Ping Flood attacks
   - Random Port Connection Flood detection
   - UDP packet monitoring
-- Traffic statistics monitoring
-- Logging system for alerts and events
-- Configurable threshold for anomaly detection
+- Traffic Statistics Monitoring: Tracks key network metrics to help identify deviations from normal behavior.
+- Integrated Logging System: Maintains a detailed log of all alerts, detected events, and system activities.
+- Configurable Anomaly Detection: Allows you to adjust thresholds for more precise anomaly detection tailored to your network environment.
 
 ## Prerequisites
 
-- Linux operating system
-- libpcap library
-- G++ compiler
-- Root/sudo privileges
-- Basic Knowledge of Networking
-- Advance Knowledge of C/C++
+- Linux operating system.
+- The libpcap library for packet capturing.
+- A G++ compiler (or compatible C++ compiler).
+- Root/sudo privileges are required to capture network traffic.
+- A basic understanding of networking concepts.
+- Intermediate to advanced knowledge of C/C++ programming.
 
 ## Installation
 
@@ -71,13 +71,6 @@ You can modify the following parameters in the code:
 - Monitoring intervals
 - Port definitions for attack detection
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 ## Acknowledgments
 
 - libpcap library developers
